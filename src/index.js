@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import App from './App';
 import * as serviceWorker from './serviceWorker';
-import MyInfo from './components/MyInfo';
-ReactDOM.render(<MyInfo/>,document.getElementById('root'));
+
+ReactDOM.render(<App/>,document.getElementById('root'));
+
+
+
+// import MyInfo from './components/MyInfo';
+// ReactDOM.render(<MyInfo/>,document.getElementById('root'));
 
 //----------------------------Funtional component start---------------------------
 
